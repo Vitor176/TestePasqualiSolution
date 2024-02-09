@@ -1,0 +1,61 @@
+﻿@model IEnumerable<PasqualiSolution.Web.Models.RegisterPFModel>
+
+<br/>
+<br/>
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <div class="col">
+            <h1 class="text-primary">Registers List</h1>
+        </div>
+        <div class="col text-end pt-1">
+            <a asp-action="RegisterCreate" class="btn btn-outline-primary">
+                <i class="fas fa-plus"></i>Create New Register
+            </a>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    CPF
+                </th>
+                <th>
+                    BirthDate
+                </th>
+                <th>
+                    Income Value
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Cpf
+                    </td>
+                    <td>
+                        @item.BirthDate.Value.ToString("dd/MM/yyyy")
+                    </td>
+                    <td>
+                        @(item.IncomeValue.ToString("c"))
+                    </td>
+                    <td>
+                       <a asp-action="RegisterUpdate" class="btn btn-success" asp-route-id="@item.Id">
+                           <i class="fas fa-edit"></i>
+                       </a>
+                       <a asp-action="RegisterDelete" class="btn btn-danger" asp-route-id="@item.Id">
+                           <i class="fas fa-trash"></i>
+                       </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PasqualiSolutionAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ToDoListAPI.Controllers.RegisterPFController.FindAll">
+            <summary>
+            Obtém todos os cadastros
+            </summary>
+        </member>
+        <member name="M:ToDoListAPI.Controllers.RegisterPFController.FindById(System.Int64)">
+            <summary>
+            Obtém um cadastro específico pelo Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoListAPI.Controllers.RegisterPFController.Create(ToDoListAPI.Data.ValueObjects.RegisterPFVO)">
+            <summary>
+            Cria um novo cadastro
+            </summary>
+            <param name="vo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoListAPI.Controllers.RegisterPFController.Update(ToDoListAPI.Data.ValueObjects.RegisterPFVO)">
+            <summary>
+            Atualiza uma Cadastro já existente
+            </summary>
+            <param name="vo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoListAPI.Controllers.RegisterPFController.Delete(System.Int64)">
+            <summary>
+            Deleta uma Cadastro existente pelo id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

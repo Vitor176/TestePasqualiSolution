@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\VITANDRA\\OneDrive - Capgemini\\Desktop\\Teste\\PasqualiSolutionWeb\\PasqualiSolution.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\VITANDRA\\OneDrive - Capgemini\\Desktop\\Teste\\PasqualiSolutionWeb\\PasqualiSolution.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VITANDRA\\OneDrive - Capgemini\\Desktop\\Teste\\PasqualiSolutionWeb\\PasqualiSolution.Web.csproj",
+        "projectName": "PasqualiSolution.Web",
+        "projectPath": "C:\\Users\\VITANDRA\\OneDrive - Capgemini\\Desktop\\Teste\\PasqualiSolutionWeb\\PasqualiSolution.Web.csproj",
+        "packagesPath": "C:\\Users\\VITANDRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VITANDRA\\OneDrive - Capgemini\\Desktop\\Teste\\PasqualiSolutionWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VITANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.130.8.73/tfs/teamddsprojectcollection/_packaging/NugetFeed/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.0-preview.6.21355.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

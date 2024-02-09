@@ -1,0 +1,16 @@
+2024-02-08 15:50:07.680 -03:00 [INF] Now listening on: https://localhost:4001
+2024-02-08 15:50:07.743 -03:00 [INF] Now listening on: http://localhost:4000
+2024-02-08 15:50:07.750 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-08 15:50:07.753 -03:00 [INF] Hosting environment: Development
+2024-02-08 15:50:07.754 -03:00 [INF] Content root path: C:\Users\VITANDRA\OneDrive - Capgemini\Desktop\Teste\Teste.API
+2024-02-08 15:50:15.744 -03:00 [INF] Request starting HTTP/2 GET https://localhost:4001/swagger/index.html - -
+2024-02-08 15:50:17.837 -03:00 [INF] Request starting HTTP/2 GET https://localhost:4001/_framework/aspnetcore-browser-refresh.js - -
+2024-02-08 15:50:17.879 -03:00 [INF] Request finished HTTP/2 GET https://localhost:4001/swagger/index.html - - - 200 - text/html;charset=utf-8 2141.1108ms
+2024-02-08 15:50:17.912 -03:00 [INF] Request starting HTTP/2 GET https://localhost:4001/_vs/browserLink - -
+2024-02-08 15:50:18.303 -03:00 [INF] Request finished HTTP/2 GET https://localhost:4001/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 465.8334ms
+2024-02-08 15:50:18.737 -03:00 [INF] Request finished HTTP/2 GET https://localhost:4001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 825.0537ms
+2024-02-08 15:50:18.884 -03:00 [INF] Request starting HTTP/2 GET https://localhost:4001/swagger/v1/swagger.json - -
+2024-02-08 15:50:18.993 -03:00 [INF] Request finished HTTP/2 GET https://localhost:4001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.1307ms
+2024-02-08 16:06:54.174 -03:00 [WRN] No store type was specified for the decimal property 'IncomeValue' on entity type 'RegisterPF'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-08 16:06:54.308 -03:00 [INF] Entity Framework Core 6.0.10 initialized 'SqlContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-02-08 16:06:54.325 -03:00 [WRN] No store type was specified for the decimal property 'IncomeValue' on entity type 'RegisterPF'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
