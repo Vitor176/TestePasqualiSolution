@@ -4,6 +4,7 @@ obj/
 
 # Ignorar arquivos de usuário Visual Studio
 .vscode/
+.vs/
 .suo
 .user
 .suo
